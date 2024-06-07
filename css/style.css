@@ -1,0 +1,53 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+header {
+    background-color: black;
+    height: 80px;
+    width: 100%;
+    position: relative; 
+}
+header li {
+    display: inline;
+    margin-right: 4vw;
+}
+header ul {
+    position: absolute;
+    right: 5vw;
+    top: 0;
+    line-height: 80px;
+}
+h1 {
+    color: white;
+    position: absolute;
+    left: 120px;
+    top: 0;
+    line-height: 80px;
+    background-image: url(../images/学不会logo.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 150px;
+    text-indent: -9999px;
+}
+header a {
+    color: white;
+    text-decoration: none;
+}
+header a:hover {
+    text-decoration: underline;
+}
+h2 {
+    color: sienna;
+    background-image: url(../images/37d3d539b6003af3027bcae2342ac65c1138b66a.jpg);
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    line-height: 200px;
+    text-align: center;  
+}
+h3 {
+    color: green;
+}
+
