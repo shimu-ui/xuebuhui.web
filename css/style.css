@@ -1,53 +1,105 @@
+
+/* 全局样式 */
 * {
-    padding: 0;
     margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    user-select: none;
 }
+
+/* 背景图片样式 */
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh; /* 确保body至少占据整个视口高度 */
+    margin: 0; /* 清除默认边距 */
+    /* 背景图片 */
+    background-image: url(../images/shanshui.gif);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    animation: none; /* 这行是取消任何可能影响背景的额外动画，保持GIF自身动画流畅 */
+}
+
+/* 头部样式 */
 header {
-    background-color: black;
-    height: 80px;
+    height: 60px;
     width: 100%;
     position: relative; 
 }
+
+/* 设置h1作为图像占位符，使用背景图替代文字内容 */
+h1 {
+    position: absolute;
+    left: 60px;
+    top: 0;
+    width: 150px;
+    height: 60px; /* 明确指定高度，与line-height相匹配，确保背景图完整显示 */
+    overflow: hidden; /* 防止背景图溢出 */
+    text-indent: 100%; white-space: nowrap; /* 更具可访问性的隐藏文本方法 */
+    
+    /* logo图片样式 */
+    background-image: url(../images/xuebuhui-logo.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: left;
+    
+}
+
+/* 导航栏的列表项 */
 header li {
     display: inline;
-    margin-right: 4vw;
+    margin-right: 1vw;
 }
 header ul {
     position: absolute;
-    right: 5vw;
+    right: 7vw;
     top: 0;
-    line-height: 80px;
-}
-h1 {
-    color: white;
-    position: absolute;
-    left: 120px;
-    top: 0;
-    line-height: 80px;
-    background-image: url(../images/学不会logo.png);
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
-    width: 150px;
-    text-indent: -9999px;
+    line-height: 60px;
 }
 header a {
-    color: white;
+    color: rgb(142, 103, 210);
     text-decoration: none;
 }
 header a:hover {
     text-decoration: underline;
 }
-h2 {
-    color: sienna;
-    background-image: url(../images/37d3d539b6003af3027bcae2342ac65c1138b66a.jpg);
-    background-size: cover;
-    background-position: center;
-    width: 100%;
-    line-height: 200px;
-    text-align: center;  
-}
-h3 {
-    color: green;
+/* 头像样式 */
+header .avatar {
+    position: absolute; /* 使用绝对定位，基于最近的relative祖先元素定位，这里是header */
+    top: 50%; /* 将头像顶部定位在header的中部 */
+    transform: translateY(-50%); /* 上移自身高度的一半，实现垂直居中 */
+    right: 5vw; /* 设置头像距离右侧的距离，与导航列表对齐 */
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    object-fit: cover;
+    z-index: 1; /* 确保头像在背景之上 */
 }
 
+
+/* 主体内容区域 */
+main {
+    flex-grow: 1;
+    max-width: 1200px;
+    margin: 250px auto 0;
+    padding: 20px;
+}
+h2 {
+    color: rgb(179, 94, 49);
+    text-align: center;
+}
+
+/* 示例文章段落样式 */
+main p {
+    line-height: 1.6;
+    color: #333;
+}
+
+/* 页脚样式 */
+footer {
+    background-color: #f8f9fa;
+    padding: 20px;
+    text-align: center;
+    font-size: 0.9em;
+}
