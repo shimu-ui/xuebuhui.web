@@ -14,7 +14,7 @@ body {
     min-height: 100vh; /* 确保body至少占据整个视口高度 */
     margin: 0; /* 清除默认边距 */
     /* 背景图片 */
-    background-image: url(../images/shanshui.gif);
+    background-image: url(../images/haiyang.png);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -58,7 +58,7 @@ header ul {
     line-height: 60px;
 }
 header a {
-    color: rgb(142, 103, 210);
+    color: rgb(17, 0, 255);
     text-decoration: none;
 }
 header a:hover {
