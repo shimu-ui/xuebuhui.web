@@ -14,8 +14,7 @@ body {
     justify-content: center;
     align-items: center;
     font-size: 12px;
-    background-color: #ecf0f3;
-    color: #a0a5a8;
+    background-image: url(../images/yun.jpg);
 }
 
 .shell {
@@ -25,8 +24,8 @@ body {
     min-height: 600px;
     height: 600px;
     padding: 25px;
-    background-color: #ecf0f3;
-    box-shadow: 10px 10px 10px #d1d9e6, -10px -10px 10px #f9f9f9;
+    background-color: #2f92e8;
+    box-shadow: 10px 10px 10px #1f56af, -10px -10px 10px #5370af;
     border-radius: 12px;
     overflow: hidden;
 }
@@ -65,7 +64,7 @@ body {
     width: 600px;
     height: 100%;
     padding: 25px;
-    background-color: #ecf0f3;
+    background-color: #4892cb;
     transition: 1.25s;
 }
 
@@ -82,8 +81,8 @@ body {
     margin: 0 5px;
     border: rgba(0, 0, 0, 0.5) 2px solid;
     border-radius: 50%;
-    font-size: 25px;
-    padding: 3px;
+    font-size: 1px;
+    padding: 15px;
     opacity: 0.5;
     transition: 0.1s;
 }
@@ -103,7 +102,7 @@ body {
     letter-spacing: 0.15px;
     border: none;
     outline: none;
-    background-color: #ecf0f3;
+    background-color: #a3bbd1;
     transition: 0.25s ease;
     border-radius: 8px;
     box-shadow: inset 2px 2px 4px #d1d9e6, inset -2px -2px 4px #f9f9f9;
@@ -122,7 +121,7 @@ body {
     color: #181818;
     font-size: 15px;
     margin-top: 25px;
-    border-bottom: 1px solid #a0a5a8;
+    border-bottom: 1px solid #4f626d;
     line-height: 2;
 }
 
@@ -150,7 +149,7 @@ body {
     font-size: 14px;
     letter-spacing: 1.15px;
     background-color: #4B70E2;
-    color: #f9f9f9;
+    color: #a5bdd3;
     box-shadow: 8px 8px 16px #d1d9e6, -8px -8px 16px #f9f9f9;
     border: none;
     outline: none;
@@ -178,7 +177,7 @@ body {
     padding: 50px;
     z-index: 200;
     transition: 1.25s;
-    background-color: #ecf0f3;
+    background-color: #4c98d2;
     overflow: hidden;
     box-shadow: 4px 4px 10px #d1d9e6, -4px -4px 10px #d1d9e6;
 }
@@ -188,7 +187,7 @@ body {
     width: 500px;
     height: 500px;
     border-radius: 50%;
-    background-color: #ecf0f3;
+    background-color: #3c99e0;
     box-shadow: inset 8px 8px 12px #b8bec7, inset -8px -8px 12px #fff;
     bottom: -60%;
     left: -60%;

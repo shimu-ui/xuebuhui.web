@@ -1,0 +1,17 @@
+.icon-QQ,
+.icon-weixin,
+.icon-bilibili-line {
+    height: 50px;
+    background-size: cover;
+    background-position: center;
+    border-radius: 50%;
+}
+.icon-QQ {
+    background-image: url(../images/QQ.png);
+}
+.icon-weixin {
+    background-image: url(../images/weixin.png);
+}
+.icon-bilibili-line {
+    background-image: url(../images/bilibili.png);
+}
